@@ -1,12 +1,15 @@
 import './App.css'
+import {Outlet} from "react-router";
 
-function App() {
+function MainLayout() {
 
   return (
     <>
+      main page
+      <Outlet/>
 
     </>
   )
 }
 
-export default App
+export default MainLayout
